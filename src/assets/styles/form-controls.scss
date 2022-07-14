@@ -1,0 +1,9 @@
+@import 'styles/variables/colors';
+
+.ng-invalid.ng-touched {
+  border-color: $invalidControlColor;
+
+  &:focus {
+    box-shadow: 0 0 0 .25rem rgba($invalidControlColor, .25);
+  }
+}

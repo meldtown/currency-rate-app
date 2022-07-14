@@ -1,6 +1,7 @@
 # CurrencyRateApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+Simple application with currency rates info. So far the app is relatively small, but it's designed in a such way to be fully scalable as it will grow in the future. 
+The UI/UX logic of converting currencies is the same as at [Google currency exchange widgets](https://www.google.com/search?q=currency+exchange&hl=uk&sxsrf=ALiCzsZKnPMbsprpyy1u2QiXZKUftQvMzg%3A1657794402085&ei=Yu_PYqfmBIH9rgT2mbjIDQ&oq=currency&gs_lcp=Cgdnd3Mtd2l6EAMYATIJCAAQQxBGEIICMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyBAgAEEMyBQgAEIAEMggIABDJAxDLATIFCAAQgAQyBQgAEMsBMgUIABCABDIFCAAQywE6BwgjEOoCECc6DQguEMcBEK8BEOoCECc6DQguEMcBENEDEOoCECc6DgguEIAEELEDEMcBENEDOgsILhCABBDHARDRAzoRCC4QgAQQsQMQgwEQxwEQ0QM6CwguEIAEEMcBEK8BOgQIIxAnOgoIABCxAxCDARBDOggIABCxAxCDAToRCC4QgAQQsQMQgwEQxwEQrwE6CwguEIAEELEDEIMBOggIABCABBCxA0oECEEYAEoECEYYAFDLrCFYs7QhYJfTIWgCcAF4AIABugGIAegHkgEDMS43mAEAoAEBsAEKwAEB&sclient=gws-wiz).
 
 ## Development server
 

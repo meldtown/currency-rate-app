@@ -1,0 +1,24 @@
+@import 'styles/variables/colors';
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  background-color: $brandColor;
+  color: $white;
+}
+
+.currency {
+  &-description {
+    margin-bottom: 0;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}

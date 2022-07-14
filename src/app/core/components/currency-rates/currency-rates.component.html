@@ -1,0 +1,46 @@
+<div class="container mt-20">
+  <div class="row">
+    <div class="col-3 offset-3 mr-50">
+      <div class="mb-10">
+        <label for="from-currency-amount" class="form-label">Amount</label>
+        <input
+          id="from-currency-amount"
+          type="number"
+          class="form-control"
+          [formControl]="fromCurrencyAmount">
+      </div>
+
+      <div class="mb-10">
+        <label for="from-currency-code" class="form-label">Currency</label>
+        <select
+          id="from-currency-code"
+          type="number"
+          class="form-select"
+          [formControl]="fromCurrencyCode">
+          <option [value]="option.value" *ngFor="let option of currencyOptions">{{option.label}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="mb-10">
+        <label for="to-currency-amount" class="form-label">Amount</label>
+        <input
+          id="to-currency-amount"
+          type="number"
+          class="form-control"
+          [formControl]="toCurrencyAmount">
+      </div>
+
+      <div class="mb-10">
+        <label for="to-currency-code" class="form-label">Currency</label>
+        <select
+          id="to-currency-code"
+          type="number"
+          class="form-select"
+          [formControl]="toCurrencyCode">
+          <option [value]="option.value" *ngFor="let option of currencyOptions">{{option.label}}</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+@import 'styles/mixins';
+@import 'styles/variables/colors';
+
+.loader {
+  @include cover;
+
+  pointer-events: none;
+
+  &_cover-page {
+    position: fixed;
+  }
+
+  &_cover-fragment, &__overlay, &__indicator-container {
+    position: absolute;
+  }
+
+  &__overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: $black;
+    opacity: .5;
+  }
+
+  &__indicator-container {
+    @include position-center;
+
+    z-index: 2;
+  }
+
+  &__indicator {
+    width: 100px;
+    height: 100px;
+    color: $black;
+  }
+}

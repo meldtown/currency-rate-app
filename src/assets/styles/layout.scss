@@ -1,0 +1,14 @@
+@for $i from 1 through 10 {
+  $step: 5;
+  $gap: $step * $i;
+
+  .pt-#{$gap} {padding-top: #{$gap}px}
+  .pb-#{$gap} {padding-bottom: #{$gap}px}
+  .pl-#{$gap} {padding-left: #{$gap}px}
+  .pr-#{$gap} {padding-right: #{$gap}px}
+
+  .mt-#{$gap} {margin-top: #{$gap}px}
+  .mb-#{$gap} {margin-bottom: #{$gap}px}
+  .ml-#{$gap} {margin-left: #{$gap}px}
+  .mr-#{$gap} {margin-right: #{$gap}px}
+}
